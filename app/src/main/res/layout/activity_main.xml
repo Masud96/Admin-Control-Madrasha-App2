@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Control"
+        android:textSize="@dimen/_30font_mdp"
+        android:padding="@dimen/_6font_mdp"
+        android:layout_marginTop="@dimen/_10mdp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/blue_900"
+        android:textColor="@color/grey_white_1000"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10mdp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/noticeActivityId"
+            android:layout_width="@dimen/_120mdp"
+            android:layout_height="@dimen/_100mdp"
+            android:layout_margin="@dimen/_8font_mdp"
+            android:padding="@dimen/_8font_mdp"
+            app:cardBackgroundColor="@color/red_900"
+            app:cardCornerRadius="@dimen/_15font_mdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_60font_mdp"
+                    android:layout_height="@dimen/_50font_mdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_15mdp"
+                    android:background="@drawable/image_background"
+                    android:padding="@dimen/_5mdp"
+                    android:src="@drawable/ic_notice" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1font_mdp"
+                    android:layout_marginTop="@dimen/_5font_mdp"
+                    android:background="@color/blue_900" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Notice"
+                    android:textSize="@dimen/_15mdp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="@dimen/_120mdp"
+            android:layout_height="@dimen/_100mdp"
+            android:layout_margin="@dimen/_8font_mdp"
+            android:padding="@dimen/_8font_mdp"
+            app:cardBackgroundColor="@color/red_900"
+            app:cardCornerRadius="@dimen/_15font_mdp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="@dimen/_60font_mdp"
+                    android:layout_height="@dimen/_50font_mdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_15mdp"
+                    android:padding="@dimen/_5mdp"
+                    android:background="@drawable/image_background"
+                    android:src="@drawable/ic_massege" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1font_mdp"
+                    android:layout_marginTop="@dimen/_5font_mdp"
+                    android:background="@color/blue_900"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Massege"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_15mdp"/>
+            </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10mdp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="@dimen/_120mdp"
+            android:layout_height="@dimen/_100mdp"
+            android:layout_margin="@dimen/_8font_mdp"
+            android:padding="@dimen/_8font_mdp"
+            app:cardBackgroundColor="@color/red_900"
+            app:cardCornerRadius="@dimen/_15font_mdp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="@dimen/_60font_mdp"
+                    android:layout_height="@dimen/_50font_mdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_15mdp"
+                    android:background="@drawable/image_background"
+                    android:padding="@dimen/_10mdp"
+                    android:src="@drawable/ic_tools_my_work"
+                    android:tint="@color/white"
+                    tools:ignore="UseAppTint"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1font_mdp"
+                    android:layout_marginTop="@dimen/_5font_mdp"
+                    android:background="@color/blue_900"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Tools"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_15mdp"/>
+            </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="@dimen/_120mdp"
+            android:layout_height="@dimen/_100mdp"
+            android:layout_margin="@dimen/_8font_mdp"
+            android:padding="@dimen/_8font_mdp"
+            app:cardBackgroundColor="@color/red_900"
+            app:cardCornerRadius="@dimen/_15font_mdp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="@dimen/_60font_mdp"
+                    android:layout_height="@dimen/_50font_mdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_15mdp"
+                    android:padding="@dimen/_5mdp"
+                    android:background="@drawable/image_background"
+                    android:src="@drawable/ic_notice" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1font_mdp"
+                    android:layout_marginTop="@dimen/_5font_mdp"
+                    android:background="@color/blue_900"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Notice"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_15mdp"/>
+            </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+
+</LinearLayout>
